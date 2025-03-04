@@ -3,6 +3,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "eugen-big-demo-bucket-wow"
+  bucket = "eugen-big-demo-bucket-notwow"
   acl    = "private"
 }
+
+
